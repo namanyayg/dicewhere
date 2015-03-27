@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dicewhere | Diceware Passphrase Generator</title>
+  <link rel="stylesheet" href="main.css"></style>
+</head>
+<body>
+  <main>
+    <div class="passphrase"></div>
+    <div class="length">
+      <input type="text" class="words" placeholder="Number of words (default 5)">
+    </div>
+    <div class="warning">
+      <p>Try to use at least 5 words!</p>
+    </div>
+  </main>
+  <footer class="note">
+    <p>Thanks to <a href="http://world.std.com/~reinhold/diceware.html">Diceware</a>. Made using the <a href="http://world.std.com/~reinhold/diceware8k.txt">8k list</a></p>
+    <p>Warning: Computerized randomness <a href="http://world.std.com/~reinhold/dicewarefaq.html#electronic">isn't too reliable</a>. You're get a stronger passphrase if you go roll dice.</p>
+    <p>No data is stored. Made with ❤ by <a href="http://namanyayg.com/" rel="nofollow">Namanyay Goel</a>.</p>
+  </footer>
+  <script src="wordlist.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

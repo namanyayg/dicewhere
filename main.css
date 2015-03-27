@@ -1,0 +1,63 @@
+html {
+  font-size: 1.125em;
+}
+
+body {
+  text-align: center;
+  padding: 0 2em 2em;
+  margin: 0;
+}
+
+body, input {
+  font-family: 'Open Sans', 'Segoe UI', Arial;
+  font-size: 1em;
+  font-weight: 300;
+  color: #333;
+}
+
+input {
+  padding: .5em;
+  border: thin solid #eee;
+  border-radius: 2px;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+p, .passphrase {
+  margin: 1.5em 0;
+}
+
+.passphrase {
+  font-size: 2.5em;
+  font-weight: 300;
+  margin-bottom: .625em;
+}
+
+main {
+  margin: 6em 0;
+  position: relative;
+}
+
+.note {
+  color: #888;
+  font-size: .825em;
+}
+
+a {
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+.warning {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: -4em;
+  color: tomato;
+  font-style: italic;
+  font-size: .825em;
+  display: none;
+}
